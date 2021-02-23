@@ -19,10 +19,10 @@ export default function Graph(props) {
 
     useEffect(()=>{
         if(props.countries.length>10){
-            console.log("hi")
+            
             countries.sort( compare ).reverse();
             setSortedCountry(countries.slice(0,5))
-            console.log(countries)
+           
         }  
 
 

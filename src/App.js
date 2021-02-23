@@ -18,7 +18,7 @@ function App() {
   const [country, setCountry] = useState("Global");
 
   useEffect(() => {
-    console.log("has been changed");
+    
   }, [country]);
 
   useEffect(() => {
